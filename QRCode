@@ -1,7 +1,0 @@
-import qrcode
-
-data = 'teste2'
-
-img = qrcode.make(data)
-
-img.save('D:/Python/Projetos/QR Code/teste2.png')
