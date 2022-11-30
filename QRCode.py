@@ -1,7 +1,8 @@
+#Método Pillow deve estar instalado.
 import qrcode
 
-data = 'https://github.com/ViniCaetano'
+data = 'https://youtu.be/kdQvRo-0KkQ'
 
 img = qrcode.make(data)
 
-img.save('D:/Python/Projetos/QR Code/GitHub.png')
+img.save('D:/Python/Projetos/QR Code/temquerespeitar.png')
